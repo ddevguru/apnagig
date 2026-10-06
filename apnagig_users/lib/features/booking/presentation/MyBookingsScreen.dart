@@ -265,7 +265,7 @@ class _MyBookingsScreenState extends State<MyBookingsScreen> with SingleTickerPr
             ),
             child: Column(
               children: [
-                _buildDetailRow(booking['icon'], booking['serviceName'], color: AppColors.primaryBlue, textColor: AppColors.textDark),
+                _buildDetailRow(booking['icon'], booking['serviceName'], iconColor: AppColors.primaryBlue, textColor: AppColors.textDark),
                 const SizedBox(height: 12),
                 _buildDetailRow(Icons.calendar_today_outlined, booking['date']),
                 const SizedBox(height: 12),
